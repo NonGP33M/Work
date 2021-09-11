@@ -1,9 +1,11 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
 int main()
 {
-    char in[120];
-    scanf("%s",&in);
-    printf("%s",strrev(in));
-    return 0;
+    int in;
+    scanf("%d", &in);
+ 
+    if((in & 1)==0)
+          printf("EVEN");
+    else
+        printf("ODD");
 }
