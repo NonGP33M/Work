@@ -8,29 +8,33 @@ public class Pro3_64010683 {
 
         System.out.print("Enter the size for the matrix: ");
         int size = input.nextInt();
-        int[][] matrix = new int[size][size];
+        if (size >= 1) {
+            int[][] matrix = new int[size][size];
 
-        for (int i = 0; i < size; i++) {
-            for (int j = 0; j < size; j++) {
-                int randomMetrix = rand.nextInt(2);
+            for (int i = 0; i < size; i++) {
+                for (int j = 0; j < size; j++) {
+                    int randomMetrix = rand.nextInt(2);
 
-                if (j < size - 1) {
-                    System.out.printf("%d ", randomMetrix);
+                    if (j < size - 1) {
+                        System.out.printf("%d ", randomMetrix);
 
-                } else {
-                    System.out.printf("%d\n", randomMetrix);
+                    } else {
+                        System.out.printf("%d\n", randomMetrix);
 
+                    }
+
+                    matrix[i][j] = randomMetrix;
                 }
-
-                matrix[i][j] = randomMetrix;
             }
-        }
-        rowCheck(matrix, size);
-        columnCheck(matrix, size);
-        superDiagonalCheck(matrix, size);
-        diagonalCheck(matrix, size);
-        subDiagonalCheck(matrix, size);
+            rowCheck(matrix, size);
+            columnCheck(matrix, size);
+            superDiagonalCheck(matrix, size);
+            diagonalCheck(matrix, size);
+            subDiagonalCheck(matrix, size);
+        } else {
+            System.out.println("Size for the matrix must greater than 0");
 
+        }
         input.close();
     }
 
@@ -86,7 +90,7 @@ public class Pro3_64010683 {
                 count++;
             }
 
-            if (count == size - 1 && size != 2) {
+            if (count == size - 1 && size > 2) {
                 System.out.printf("All %ds on the superdiagonal\n", matrix[0][1]);
                 printCount++;
 
@@ -126,7 +130,7 @@ public class Pro3_64010683 {
                 count++;
             }
 
-            if (count == size - 1 && size != 2) {
+            if (count == size - 1 && size > 2) {
                 System.out.printf("All %ds on the subdiagonal\n", matrix[1][0]);
                 printCount++;
 
