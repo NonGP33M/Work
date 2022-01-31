@@ -2,6 +2,11 @@ public class StopWatch {
     private long startTime;
     private long endTime;
 
+    public StopWatch() {
+        startTime = System.nanoTime();
+
+    }
+
     public void start() {
         startTime = System.nanoTime();
 
