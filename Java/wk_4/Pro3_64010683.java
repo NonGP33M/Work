@@ -86,12 +86,13 @@ public class Pro3_64010683 {
     public static boolean isPrime(int number) {
         int n = 0;
 
-        for (int i = 1; i < number; i++) {
+        for (int i = 2; i <= number / 2; i++) {
             if (number % i == 0) {
                 n++;
+                break;
             }
         }
-        if (n > 1) {
+        if (n > 0) {
             return false;
         } else {
             return true;

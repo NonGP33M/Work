@@ -1,10 +1,10 @@
 public class Stock {
-    String symbol;
-    String name;
-    double previousClosingPrice;
-    double currentPrice;
+    public String symbol;
+    public String name;
+    public double previousClosingPrice;
+    public double currentPrice;
 
-    public void setSymName(String newSymbol, String newName) {
+    public Stock(String newSymbol, String newName) {
         symbol = newSymbol;
         name = newName;
 
