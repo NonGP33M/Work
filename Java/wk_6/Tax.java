@@ -1,6 +1,6 @@
 public class Tax {
     private int filingStatus;
-    private int brackets[][];
+    private int[][] brackets;
     private double rates[];
     private double taxableIncome;
 
