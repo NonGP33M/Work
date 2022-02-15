@@ -14,7 +14,6 @@ public class Pro2_64010683 {
     }
 
     public static void display(GregorianCalendar currentTime) {
-        System.out.println("Current year, month, date, and day of week");
         System.out.println("Year is " + currentTime.get(GregorianCalendar.YEAR));
         System.out.println("Month is " + currentTime.get(GregorianCalendar.MONTH));
         System.out.println("Date is " + currentTime.get(GregorianCalendar.DATE));
