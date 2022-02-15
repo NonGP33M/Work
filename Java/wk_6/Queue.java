@@ -1,6 +1,6 @@
 public class Queue {
     private int size = 0;
-    public int[] elements;
+    private int[] elements;
     private int capacity;
 
     public Queue(int capacity) {

@@ -4,7 +4,7 @@ public class BMI {
     private double weight;
     private double feet;
     private double inches;
-    private String Interpretation[] = { "Underweight", "Normal", "Overweigth", "Obese" };
+    private String[] Interpretation = { "Underweight", "Normal", "Overweigth", "Obese" };
 
     public BMI(String name, int age, double weight, double feet, double inches) {
         this.name = name;
