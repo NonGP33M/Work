@@ -8,7 +8,7 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
-public class App extends Application {
+public class Main extends Application {
 
     TextField tfLoanAmount = new TextField();
     TextField tfNumOfYears = new TextField();

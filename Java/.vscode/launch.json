@@ -6,30 +6,16 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "Launch Pro5_64010683",
             "request": "launch",
-            "mainClass": "App",
-            "projectName": "Java_de24c397",
-            "vmArgs": "--module-path \"C:/JavaFX/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
-        },
-        {
-            "type": "java",
-            "name": "Launch Current File",
-            "request": "launch",
-            "mainClass": "${file}",
-        },
-        {
-            "type": "java",
-            "name": "Launch Pro1_64010683",
-            "request": "launch",
-            "mainClass": "Pro1_64010683",
+            "mainClass": "Pro5_64010683",
             "projectName": "Java_de24c397"
         },
         {
             "type": "java",
-            "name": "Launch Pro2_64010683",
+            "name": "Launch Pro4_64010683",
             "request": "launch",
-            "mainClass": "Pro2_64010683",
+            "mainClass": "Pro4_64010683",
             "projectName": "Java_de24c397"
         },
         {
@@ -41,10 +27,39 @@
         },
         {
             "type": "java",
-            "name": "Launch Pro4_64010683",
+            "name": "Launch Pro2_64010683",
             "request": "launch",
-            "mainClass": "Pro4_64010683",
+            "mainClass": "Pro2_64010683",
             "projectName": "Java_de24c397"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pro1_64010683",
+            "request": "launch",
+            "mainClass": "Pro1_64010683",
+            "projectName": "Java_de24c397"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Pro1_64010683.Main",
+            "projectName": "Java_de24c397",
+            "vmArgs": "--module-path \"C:/JavaFX/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_de24c397",
+            "vmArgs": "--module-path \"C:/JavaFX/javafx-sdk-17.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
         }
     ]
 }

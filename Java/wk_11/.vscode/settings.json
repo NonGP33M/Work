@@ -1,4 +1,6 @@
 {
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\JavaFX\\javafx-sdk-17.0.2\\lib\\javafx.base.jar",
@@ -9,12 +11,5 @@
         "c:\\JavaFX\\javafx-sdk-17.0.2\\lib\\javafx.swing.jar",
         "c:\\JavaFX\\javafx-sdk-17.0.2\\lib\\javafx.web.jar",
         "c:\\JavaFX\\javafx-sdk-17.0.2\\lib\\javafx-swt.jar"
-    ],
-    "java.project.sourcePaths": [
-        "wk_9_2",
-        "wk_9/src",
-        "wk_8",
-        "wk_2"
-    ],
-    "java.debug.settings.forceBuildBeforeLaunch": false
+    ]
 }
